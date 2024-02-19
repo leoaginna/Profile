@@ -1,0 +1,82 @@
+body {
+  font-family: Overpass;
+  background-color: #eaf2f0;
+  color: #2c2e33;
+  text-align: center;
+  padding: 25px;
+}
+h1, h2, h3 {
+  font-family: Chivo;
+  font-size: 25;
+  color: rgb(1, 43, 28);
+}
+a {
+  text-decoration: none;
+  transition: 0.3s ease;
+  margin: 40px auto;
+}
+
+a:hover {
+  color:rgb(228, 194, 150);
+}
+
+#profile-pic {
+  width: 170px;
+  border-radius: 50%;
+  padding: 0%;
+  margin: 0 0 20px 0;
+}
+.card {
+  background-color:rgb(253, 253, 253);
+  padding: 5px;
+  width: 600px;
+  margin: 25px auto;
+  border-radius: 7px;
+  border: 1px solid #ffffff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ul {
+  list-style-type: none;
+}
+button{
+  margin: 20px;
+  border-color: #eaf2f0;
+  background-color: #eaf2f0;
+  padding: auto;
+  border-radius: 7px;
+  font-size: 15px;
+}
+ul {
+  padding: 0%;
+  display: inline;
+  margin: 0% auto;
+}
+i{
+  font-size: 35px;
+  padding: 0%;
+  margin: 0 0 10px 0;
+  color: #141615;
+}
+li {
+  display: inline;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}

@@ -27,7 +27,7 @@ a:hover {
   margin: 0 0 20px 0;
 }
 .card {
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(253, 253, 253);
   padding: 5px;
   width: 600px;
   margin: 25px auto;
@@ -38,39 +38,31 @@ a:hover {
 ul {
   list-style-type: none;
 }
-button{
+button {
   margin: 20px;
   border-color: #eaf2f0;
   background-color: #eaf2f0;
   padding: auto;
   border-radius: 7px;
   font-size: 15px;
+  transition: color 0.3s ease-in-out;
 }
 ul {
   padding: 0%;
   display: inline;
   margin: 0% auto;
 }
-@keyframes move {
-  0% { transform: rotate(0deg); }
-  50% { transform: rotate(10deg); }
-  100% { transform: rotate(0deg); }
-}
-li a i::before {
+i{
   font-size: 35px;
-  padding: 0;
-  margin: 10px;
-  color: #3f574bba;
-  display: inline-block;
-  transform-origin: center;
-  animation: move 3s infinite;
+  padding: 0%;
+  margin: 0 0 10px 0;
+  color: #141615;
 }
 li {
   display: inline;
 }
-li a:hover i::before {
+li a:hover {
   color: rgb(228, 194, 150);
-  transition: 0.3s ease;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
